@@ -75,5 +75,67 @@ namespace Algorithms.Test {
             Assert.IsTrue(result);
         }
 
+        [TestMethod]
+        public void CanWin_10_35_True() {
+
+            var service = new CanWin();
+
+            bool result = service.CanIWin(7, 21);
+
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void CanWin_2_2_True() {
+
+            var service = new CanWin();
+
+            bool result = service.CanIWin(7, 21);
+
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void CanWin_16_100_True() {
+
+            var service = new CanWin();
+
+            bool result = service.CanIWin(7, 21);
+
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void CanWin_15_104_True() {
+
+            var service = new CanWin();
+
+            bool result = service.CanIWin(7, 21);
+
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void CanWin_15_105_True() {
+
+            var service = new CanWin();
+
+            bool result = service.CanIWin(7, 21);
+
+            Assert.IsTrue(result);
+        }
+
+        [TestMethod]
+        public void CanWin_15_100_True() {
+
+            var service = new CanWin();
+
+            bool result = service.CanIWin(7, 21);
+
+            Assert.IsTrue(result);
+        }
+
+
+
     }
 }
